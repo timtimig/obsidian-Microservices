@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "264aea710f6a46c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0405ab7e2c1a4894",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a252aa581da5df72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Building microservices/Chapter 1. What are microservices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 1. What are microservices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51ccca97af38cbd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e32e49ea88bc3a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e586ad27b95c891",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "567f3973b3e74b08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8f28c8eef96516eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "right": {
+    "id": "8c3607c9947ccd39",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa31d189023f861c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d171842737402700",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Building microservices/Chapter 1. What are microservices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chapter 1. What are microservices"
+            }
+          },
+          {
+            "id": "4b47ca62346e0333",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Building microservices/Chapter 1. What are microservices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Chapter 1. What are microservices"
+            }
+          },
+          {
+            "id": "ac84be44394c708a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c4ed1f05a5043ece",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Building microservices/Chapter 1. What are microservices.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chapter 1. What are microservices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a252aa581da5df72",
+  "lastOpenFiles": [
+    "Building microservices/Chapter 1. What are microservices.md",
+    "Welcome.md",
+    "Untitled 1",
+    "Building microservices"
+  ]
+}
