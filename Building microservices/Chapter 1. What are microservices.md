@@ -34,3 +34,17 @@ Instead this we can use vertical business lines. We see a dedicated team that ha
 ## The Monolith
 When we are talking about monoliths here, we refer to a unit of deployment. There are several types like single-process monolith, modular, distributed. But if it must be deployed together is remains monolith.
 A distributed monolith has all the disadvantages of a distributed system, and the disadvantages of a single-process monolith, without having enough of the upsides of either.
+
+## Enabling Technology
+No need to adopt lots of new technology when first start using microservices. You should constantly be looking for issues caused by your increasingly distributed system, and then for technology that might help.
+#### Log aggregation and Distributed tracing
+These systems allow you to collect and aggregate logs from across all your services, providing you a central place from which logs can be analyzed, and even made part of an active alerting mechanism.
+You can make these log aggregation tools even more useful by implementing correlation IDs, in which a single ID is used for a related set of service calls.
+As your system grows in complexity, it becomes essential to consider tools that allow you to better explore what your system is doing, providing the ability to analyze traces across multiple services, detect bottlenecks, and ask questions of your system that you didn’t know you would want to ask in the first place.
+#### Containers and Kubernetes
+_Containers_ provide a lightweight way to provision isolated execution for service instances. After you begin playing around with containers, you’ll also realize that you need something to allow you to manage these containers across lots of underlying machines. Container orchestration platforms like Kubernetes do exactly that.
+But do your best to ensure that someone else is running the Kubernetes cluster for you, perhaps by making use of a managed service on a public cloud provider. Running your own Kubernetes cluster can be a significant amount of work!
+#### Streaming
+Although with microservices we are moving away from monolithic databases, we still need to find ways to share data between microservices.
+**Apache Kafka** has become the facto choice for streaming data in a microservice environment.
+**Debezium** is an open source tool developed to help stream data from existing datasources over Kafka, helping ensure that traditional datasources can become part of a stream-based architecture.
