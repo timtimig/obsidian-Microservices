@@ -48,3 +48,23 @@ But do your best to ensure that someone else is running the Kubernetes cluster f
 Although with microservices we are moving away from monolithic databases, we still need to find ways to share data between microservices.
 **Apache Kafka** has become the facto choice for streaming data in a microservice environment.
 **Debezium** is an open source tool developed to help stream data from existing datasources over Kafka, helping ensure that traditional datasources can become part of a stream-based architecture.
+#### Public cloud and serverless
+Public cloud providers offer a host of managed services, from managed database instances or Kubernetes clusters to message brokers or distributed filesystems.
+Of particular interest among the public cloud offerings are the products that sit under the banner of _serverless_. These products hide the underlying machines, allowing you to work at a higher level of abstraction.
+## Advantages of microservices
+#### Technology heterogeneity
+With a system composed of multiple microservices we can decide to use different technologies inside each one.
+Also the fact that internal technology implementation is hidden from consumers can also make upgrading technologies easier.
+#### Robustness
+ A component of a system may fail, but as long as that failure doesn’t cascade, you can isolate the problem, and the rest of the system can carry on working.
+ We do need to be careful, however. To ensure that our microservice systems can properly embrace this improved robustness, we need to understand the new sources of failure that distributed systems have to deal with. Networks can and will fail, as will machines.
+#### Scaling
+With a large, monolithic service, we need to scale everything together. Perhaps one small part of our overall system is constrained in performance, but if that behavior is locked up in a giant monolithic application, we need to handle scaling everything as a piece. With smaller services, we can scale just those services that need scaling, allowing us to run other parts of the system on smaller, less powerful hardware.
+#### Easy of deployment
+A one-line change to a million-line monolithic application requires the entire application to be deployed in order to release the change. This means that our changes continue to build up between releases, until the new version of our application entering production has masses of changes. And the bigger the delta between releases, the higher the risk that we’ll get something wrong!
+With microservices, we can make a change to a single service and deploy it independently of the rest of the system. This allows us to get our code deployed more quickly. If a problem does occur, it can be quickly isolated to an individual service, making fast rollback easy to achieve.
+#### Organizational alignment
+Smaller teams working on smaller codebases tend to be more productive. Microservices allow us to better align our architecture to our organization, helping us minimize the number of people working on any one codebase to hit the sweet spot of team size and productivity.
+#### Composability
+One of the key promises of distributed systems and service-oriented architectures is that we open up opportunities for reuse of functionality. With microservices, we allow for our functionality to be consumed in different ways for different purposes.
+We need to think of the myriad ways that we might want to weave together capabilities for the web, native application, mobile web, tablet app, or wearable device. With microservices, as circumstances change, we can build applications in different ways.
