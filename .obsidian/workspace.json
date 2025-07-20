@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Building microservices/Chapter 1. What are microservices.md",
+                "file": "Building microservices/1. What are microservices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1. What are microservices"
+              "title": "1. What are microservices"
             }
           }
         ]
@@ -170,7 +170,7 @@
   },
   "active": "a252aa581da5df72",
   "lastOpenFiles": [
-    "Building microservices/Chapter 1. What are microservices.md",
+    "Building microservices/1. What are microservices.md",
     "Welcome.md",
     "Untitled 1",
     "Building microservices"
